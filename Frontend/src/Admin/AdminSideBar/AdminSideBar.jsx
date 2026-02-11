@@ -45,7 +45,8 @@ export default function AdminSidebar() {
         <li><NavLink to="/AddVendor">Add Vendor </NavLink></li>
         <li><NavLink to="/AddTurf">Add Turf</NavLink></li>
         <li><NavLink to="/UserManagement">Turf List</NavLink></li>
-        <li><NavLink to="/TurfManagement">Vendor Request </NavLink></li>
+        <li><NavLink to="/VendorRequest">Vendor Request </NavLink></li>
+        <li><NavLink to="/VendorList">Vendor List </NavLink></li>
       </ul>
       {/* Logout */}
       <button className="logout-btn" onClick={handleLogout}>

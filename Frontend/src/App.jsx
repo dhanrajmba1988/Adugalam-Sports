@@ -41,6 +41,7 @@ import AddVendor from "./Admin/AddVendor/AddVendor.jsx";
 import AdminSideBar from "./Admin/AdminSideBar/AdminSideBar.jsx";
 import AdminLayout from "./Admin/AdminLayout.jsx";
 import AddTurf from "./Vendor/AddTurf.jsx";
+import VendorRequest from "./Admin/VendorRequest/VendorRequest.jsx";
 
 
 import VendorLogin from "./Vendor/VendorLogin/VendorLogin.jsx";
@@ -88,6 +89,7 @@ const NavbarWrapper = () => {
     "/Vendor",
      "/AdminLogout",
     "/AddTurf",
+    "/VendorRequest",
 
     "/VendorDashboard",
     "/addturf",
@@ -126,6 +128,7 @@ const FooterWrapper = () => {
     "/Vendor",
     "/AdminLogout",
     "/AddTurf",
+    "/VendorRequest",
 
     "/VendorDashboard",
     "/addturf",
@@ -194,6 +197,7 @@ const App = () => {
           <Route path="/Vendor" element={<Vendor />} />
           <Route path="/AdminLogout" element={<AdminLogin />} />
           <Route path="/AddTurf" element={<AddTurf />} />
+          <Route path="/VendorRequest" element={<VendorRequest />} />
         </Route>
 
 
