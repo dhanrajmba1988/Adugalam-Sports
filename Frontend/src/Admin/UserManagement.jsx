@@ -15,7 +15,7 @@ export default function UserManagement() {
       .catch(err => console.error(err));
   }, []);
 
-  
+    
   const openReviews = async (user) => {
     setSelectedUser(user);
     setIsModalOpen(true);
